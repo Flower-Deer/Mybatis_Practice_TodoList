@@ -1,0 +1,30 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>투두리스트</title>
+</head>
+<body>
+<h1>❤️ToDoList❤️</h1>
+<table>
+	<thead>
+		<tr>
+			<th>날짜</th>
+			<th>요일</th>
+			<th>할일</th>
+			<th>평가</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td></td>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+		</tr>
+	</tbody>
+</table>
+</body>
+</html>

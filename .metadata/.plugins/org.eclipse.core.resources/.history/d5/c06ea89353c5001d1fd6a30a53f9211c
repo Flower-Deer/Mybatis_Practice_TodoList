@@ -1,0 +1,37 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>투두리스트</title>
+</head>
+<body>
+<h1>❤️ToDoList❤️</h1>
+<form>
+	날짜 : <input type="date"> <br/>
+	요일 : <input type="text" value="요일"> <br/>
+	할일 : <input type="text" value="할일"> <br/>
+	평가 : <input type="text" value="평가"> <br/>
+	<input type="submit" value="저장">
+</form>
+<table>
+	<thead style="font-size: 20px;">
+		<tr>
+			<th>날짜</th>
+			<th>요일</th>
+			<th>할일</th>
+			<th>평가</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+		</tr>
+	</tbody>
+</table>
+</body>
+</html>
